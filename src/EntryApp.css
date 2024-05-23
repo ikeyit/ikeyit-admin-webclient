@@ -1,0 +1,27 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.home-row {
+    width: 100%;
+    text-align: center;
+}
+
+.home-col {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.home-card {
+    width: 200px;
+    height: 200px;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.k-placeholder-edit-name {
+    font-weight: bold;
+}
+
+.k-creative-category {
+    background: #2db7f5;
+}
+.k-creative-channel {
+    background: #ff5500;
+}
+
+.k-creative-template {
+    background: #dddddd;
+    color: rgba(0, 0, 0, 0.88);
+    max-width: 250px;
+}

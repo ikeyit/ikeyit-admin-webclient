@@ -1,0 +1,47 @@
+.ant-layout .i-header {
+    width: 100%;
+    height: 56px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom: 1px solid #efefef;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background:#FFF;
+}
+
+.i-header-left-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.i-header-middle-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 328px;
+}
+
+.i-right-wrapper {
+    min-width: 345px;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.ant-layout .i-header-logo {
+    color: #FFF;
+}
